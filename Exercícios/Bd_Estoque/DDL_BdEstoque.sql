@@ -43,7 +43,7 @@ create table tbCliente(
   codItensVendas int identity(1,1) primary key,
   codVenda int FOREIGN KEY (codVenda) references tbVendas (codVenda),
   codProduto int FOREIGN KEY (codProduto) references tbProduto (codProduto),
-  quantidadeItensVendas varchar (20),
-  subTotalItensVendas varchar (20)
+  quantidadeItensVenda varchar (20),
+  subTotalItensVenda varchar (20)
   );
 
