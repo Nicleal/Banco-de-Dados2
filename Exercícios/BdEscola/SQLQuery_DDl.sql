@@ -1,9 +1,9 @@
-create database bd_ExConsultas
+create database bdEscola
 go
 
 DROP TABLE tb_Aluno
 
-use bd_ExConsultas
+use bdEscola
 
 create table tb_Aluno(
 codAluno int PRIMARY KEY IDENTITY(1,1),
