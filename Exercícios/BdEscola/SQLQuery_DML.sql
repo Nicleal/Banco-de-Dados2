@@ -1,9 +1,9 @@
-use bd_ExConsultas
+use bdEscola
 
 
 INSERT INTO tb_Curso (nomeCurso, cargaHorariaCurso, valorCurso) VALUES
-('Inglês', 2000, '356,00'),
-('Alemão', 3000, '478,00');
+('InglÃªs', 2000, '356,00'),
+('AlemÃ£o', 3000, '478,00');
 
 
 
